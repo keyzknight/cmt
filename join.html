@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiunge na Chama</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- MODIFY: Relies on external CSS -->
+    <!-- MODIFY: Remove the <script> tag from here and move it to the bottom -->
+    <!-- <script src="assets/js/script.js"></script> --><!--added js file-->
+    <!-- MODIFY: Remove the entire <style> block below and move styles to assets/css/style.css -->
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #002147;
+            color: white;
+            padding:  2rem 1rem;
+            text-align: center;
+            
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+         nav a.active{
+     background-color: #003366;/*dark blue background for highlight*/
+     color: white;/*ensure text remains readable*/
+     padding: 5px 10px;/*add padding for better visibility*/
+     border-radius: 4px;/*optional: rounded corners*/
+    }
+
+        main {
+            padding: 1rem;
+        }
+
+       /* For h1 in header */
+h1 {
+    color: white; /* Matches header background #002147 */
+    margin-top: 1rem; /* Remove default margin */
+    padding-bottom: 5px ; /* Add internal padding */
+}
+
+/* For h2 in content */
+h2 {
+    color: #333333; /* Dark gray for contrast with #fff background */
+    border-bottom: 2px solid #ccc; /* Optional, remove if unwanted */
+    padding-bottom: 5px0;
+    margin-top: 1rem;
+}
+        .content {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .download-link {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .download-link:hover {
+            background-color: #0055aa;
+        }
+
+        .fee {
+            font-weight: bold;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<header>
+
+<header>
+    <h1>Jiunge na Chama</h1>
+    <nav>
+       <a href="index.html">Nyumbani</a>
+            <a href="join.html" class="active"> kujiunga</a>
+             <a href="news.html">Habari</a>
+             <a href="benefits.html">Faida</a>
+             <a href="events.html">Matukio</a>
+             <a href="leadership.html">Uongozi</a>
+             <a href="contact.html">Mawasiliano</a>
+             <a href="about.html">Kuhusu</a>
+        
+    </nav>
+</header>
+
+<main>
+    <div class="content">
+        <h2>Nani Anaweza Kujiunga?</h2>
+        <p>Wanachama wa chama hiki ni madereva wote wa serikali wanaofanya kazi katika taasisi, wizara au mashirika ya umma ndani ya Jamhuri ya Muungano wa Tanzania.</p>
+
+        <h2>Vigezo vya Kujiunga:</h2>
+        <ul>
+            <li>Uwe ni dereva anayetambuliwa na taasisi ya serikali.</li>
+            <li>Uwe na kitambulisho cha kazi au barua ya utambulisho kutoka kwa mwajiri.</li>
+            <li>Jaza fomu ya usajili ya chama (inapatikana hapa chini).</li>
+            <li>Lipia ada ya uanachama ya awali.</li>
+        </ul>
+
+        <p class="fee">Ada ya Kujiunga: TZS 10,000</p>
+
+        <a href="assets/downloads/katiba_ya_uanachama.pdf" class="download-button" download>
+            Pakua katiba ya Uanachama (PDF)
+        </a>
+    </div>
+    <h2>Jaza Fomu ya Kujiunga Hapa:</h2>
+    <form action="#" method="post" style="margin-top: 20px;"     <!-- ...existing code... -->
+    <h2>Nani Anaweza Kujiunga?</h2>
+    <p>Wanachama wa chama hiki ni madereva wote wa serikali wanaofanya kazi katika taasisi, wizara au mashirika ya umma ndani ya Jamhuri ya Muungano wa Tanzania.</p>
+    
+    <h2>Vigezo vya Kujiunga:</h2>
+    <ul>
+        <li>Uwe ni dereva anayetambuliwa na taasisi ya serikali.</li>
+        <li>Uwe na kitambulisho cha kazi au barua ya utambulisho kutoka kwa mwajiri.</li>
+        <li>Jaza fomu ya usajili ya chama (inapatikana hapa chini).</li>
+        <li>Lipia ada ya uanachama ya awali.</li>
+    </ul>
+    <!-- ...existing code... -->
+    <form action="#" method="post" style="margin-top: 20px;" id="joinform">
+    <!-- ...existing code... -->id=joinform">
+        <label for="jinaKamili">Jina Kamili:</label><br>
+        <input type="text" id="jinaKamili" name="jinaKamili" required><br><br>
+
+        <label for="nambaSimu">Namba ya Simu:</label><br>
+        <input type="tel" id="nambaSimu" name="nambaSimu" required><br><br>
+
+        <label for="anwaani">Anwani ya Sasa:</label><br>
+        <input type="text" id="anwaani" name="anwaani" required><br><br>
+
+        <label for="mahaliKazi">Mahali Pa Kazi:</label><br>
+        <input type="text" id="mahaliKazi" name="mahaliKazi" required><br><br>
+
+        <label for="tareheKujiunga">Tarehe ya Kujiunga Sahihi:</label><br>
+        <input type="date" id="tareheKujiunga" name="tareheKujiunga" required><br><br>
+
+        <p style="font-style: italic; color: #555;">
+            Ombi la kuwa mwanachama rasmi litakamilika punde tutakapopokea mchango wa uanachama.
+        </p>
+
+        <button type="submit" style="background-color: #003366; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+            Tuma Fomu
+        </button>
+        <!--payment methods section-->
+        <div class="payment-methods">
+    <div class="payment-card">
+        <h3>Mixx by YAS</h3>
+        <p>Tuma malipo kupitia Mixx by YAS kwa namba ya chama.</p>
+        <button onclick="showPaymentInstructions('mixx')">Maelekezo</button><br>
+        <a href="tel:*150*00#" class="quick-pay">au lipia hapa moja kwa moja</a>
+    </div>
+
+    <div class="payment-card">
+        <h3>HaloPesa</h3>
+        <p>Tumia HaloPesa kwenda namba 123456, kiasi TZS 10,000.</p>
+        <button onclick="showPaymentInstructions('halopesa')">Maelekezo</button><br>
+        <a href="tel:*150*88#" class="quick-pay">au lipia hapa moja kwa moja</a>
+    </div>
+
+    <div class="payment-card">
+        <h3>Airtel Money</h3>
+        <p>Fungua Airtel Money, lipa kwa namba ya kampuni 987654.</p>
+        <button onclick="showPaymentInstructions('airtel')">Maelekezo</button><br>
+        <a href="tel:*150*60#" class="quick-pay">au lipia hapa moja kwa moja</a>
+    </div>
+</div>
+    </form>
+</main>
+<footer id="pagefooter"> <!-- MODIFY: Added 'id="pageFooter"' for JavaScript targeting -->
+        <p>© 2025 Chama cha Madereva wa Serikali wa Tanzania.</p>
+    </footer>
+
+    <!-- MODIFY: Moved script tag to bottom -->
+    <script src="assets/js/script.js"></script>
+    <!-- MODIFY: Add inline script for payment instructions if needed, e.g., -->
+    <script>
+        function showPaymentInstructions(method) {
+            alert('Maelekezo ya ${method}: Tafadhali tumia namba ya chama kwa malipo.')
+        }
+    </script>
+</body>
+</html>

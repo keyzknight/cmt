@@ -1,0 +1,64 @@
+/* Homepage-specific styles */
+.home-page {
+    background-image: url('../image/logo.jpeg');
+    background-size: cover; /* Scales the logo to cover the entire background */
+    background-position: center; /* Centers the logo */
+    background-repeat: no-repeat; /* Prevents tiling */
+    min-height: 100vh; /* Ensures the background covers the full viewport height */
+    position: relative; /* Allows layering of content */
+}
+
+/* Ensure content is visible over the logo */
+.home-page .content {
+    position: relative; /* Keeps content in the normal flow */
+    z-index: 1; /* Brings content above the background */
+    padding: 20px; /* Adds some padding for readability */
+    color: #333; /* Dark text for contrast (adjust as needed) */
+    background-color: rgba(206, 123, 123, 0.8); /* Semi-transparent white overlay for better readability */
+}
+
+/* Optional: Style the header if it’s part of the homepage */
+.home-page header {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark header for contrast */
+    color: white;
+}
+
+/* Optional: Style the main content area */
+.home-page main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main, .content {
+    text-align: left;
+    color: #222;
+    background-color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}header {
+    text-align: center;
+    padding: 20px 0 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}header {
+    text-align: center;
+    padding: 20px 0 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}

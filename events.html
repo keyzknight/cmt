@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matukio ya Chama</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+     <script src="assets/js/script.js"></script><!--added js file-->
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #002147;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 2px solid #ccc;/*added bottom border*/;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+         nav a.active{
+     background-color: #003366;/*dark blue background for highlight*/
+     color: white;/*ensure text remains readable*/
+     padding: 5px 10px;/*add padding for better visibility*/
+     border-radius: 4px;/*optional: rounded corners*/
+    }
+
+        main {
+            padding: 2rem;
+        }
+
+        /* For h1 in header */
+h1 {
+    color: white; /* Matches header background #002147 */
+    margin: 0; /* Remove default margin */
+    padding: 1rem 0; /* Add internal padding */
+}
+
+/* For h2 in content */
+h2 {
+    color: #333333; /* Dark gray for contrast with #fff background */
+    border-bottom: 2px solid #ccc; /* Optional, remove if unwanted */
+    padding-bottom: 5px;
+    margin-top: 1rem;
+}
+        .event-section {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .event {
+            margin-bottom: 1.5rem;
+        }
+
+        .event h3 {
+            margin: 0 0 5px 0;
+            color: #003366;
+        }
+
+        .event p {
+            margin: 5px 0;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Matukio ya Chama</h1>
+    <nav>
+        <a href="index.html">Nyumbani</a>
+            <a href="join.html"> kujiunga</a>
+             <a href="news.html">Habari</a>
+             <a href="benefits.html">Faida</a>
+             <a href="events.html" class="active">Matukio</a>
+             <a href="leadership.html">Uongozi</a>
+             <a href="contact.html">Mawasiliano</a>
+             <a href="about.html">Kuhusu</a>
+    </nav>
+</header>
+
+<main>
+    <section class="event-section">
+        <h2>Matukio ya Hivi Karibuni</h2>
+
+        <div class="event">
+            <h3>Mkutano wa Wajumbe wa Taifa</h3>
+            <p class="date">Aprili 15, 2025</p>
+            <p>Mkutano wa kitaifa ulifanyika Dodoma ili kujadili masuala ya ustawi wa madereva wa serikali na kuwasilisha mpango wa mafao mapya.</p>
+        </div>
+
+        <div class="event">
+            <h3>Uzinduzi wa Mfumo wa Usajili Mtandaoni</h3>
+            <p class="date">Machi 5, 2025</p>
+            <p>Chama kilizindua mfumo wa usajili wa wanachama kwa njia ya mtandao kwa urahisi wa wanachama waliopo maeneo mbalimbali ya nchi.</p>
+        </div>
+    </section>
+
+    <section class="event-section">
+        <h2>Matukio ya Zamani</h2>
+
+        <div class="event">
+            <h3>Warsha ya Mafunzo ya Usalama Barabarani</h3>
+            <p class="date">Novemba 20, 2024</p>
+            <p>Warsha ilifanyika jijini Arusha ikihusisha madereva wa serikali kujifunza mbinu bora za usalama barabarani na matumizi sahihi ya magari ya umma.</p>
+        </div>
+
+        <div class="event">
+            <h3>Siku ya Madereva wa Serikali</h3>
+            <p class="date">Agosti 12, 2024</p>
+            <p>Sherehe maalum ya kuwatambua madereva waliotoa huduma bora kwa muda mrefu ilifanyika Uwanja wa Taifa, Dar es Salaam.</p>
+        </div>
+    </section>
+
+    <section class="event-section">
+        <h2>Mikutano na Makongamano ya Zamani</h2>
+
+        <div class="event">
+            <h3>Kongamano la Madereva Serikalini – Kanda ya Kati</h3>
+            <p class="date">Mei 25, 2023</p>
+            <p>Kongamano hilo lilileta pamoja zaidi ya madereva 300 kutoka mikoa ya Dodoma, Singida na Manyara kwa mafunzo na mazungumzo kuhusu haki kazini.</p>
+        </div>
+
+        <div class="event">
+            <h3>Mkutano wa Mwaka wa Tathmini ya Ufanisi</h3>
+            <p class="date">Disemba 3, 2022</p>
+            <p>Uliangazia mafanikio ya chama kwa mwaka mzima, ulifanyika katika ukumbi wa mikutano wa Tanesco jijini Mwanza.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Chama cha Madereva wa Serikali wa Tanzania. Haki Zote Zimehifadhiwa.</p>
+</footer>
+
+</body>
+</html>

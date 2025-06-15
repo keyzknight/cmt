@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uongozi wa Chama</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+     <script src="assets/js/script.js"></script><!--added js file-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #002147;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+         nav a.active{
+     background-color: #003366;/*dark blue background for highlight*/
+     color: white;/*ensure text remains readable*/
+     padding: 5px 10px;/*add padding for better visibility*/
+     border-radius: 4px;/*optional: rounded corners*/
+    }
+
+       /* For h1 in header */
+h1 {
+    color: white; /* Matches header background #002147 */
+    margin: 0; /* Remove default margin */
+    padding: 1rem 0 ; /* Add internal padding */
+}
+
+/* For h2 in content */
+h2 {
+    color: #131b85; /* Dark gray for contrast with #fff background */
+    border-bottom: 2px solid #ccc; /* Optional, remove if unwanted */
+    padding-bottom: 5px;
+    margin-top: 1rem;
+}
+
+        .leader-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .leader-card {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .leader-card:hover {
+            transform: scale(1.03);
+        }
+
+        .leader-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .leader-card h3 {
+            margin: 0.5rem 0 0.2rem 0;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            margin-top: 5px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Uongozi wa Chama</h1>
+    <nav>
+  <a href="index.html">Nyumbani</a>
+            <a href="join.html"> kujiunga</a>
+             <a href="news.html">Habari</a>
+             <a href="benefits.html">Faida</a>
+             <a href="events.html">Matukio</a>
+             <a href="leadership.html" class="active">Uongozi</a>
+             <a href="contact.html">Mawasiliano</a>
+             <a href="about.html">Kuhusu</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Viongozi Wakuu</h2>
+        <div class="leader-grid">
+            <div class="leader-card">
+                <img src="assets/image/mwenyekiti.jpg" alt="Mwenyekiti">
+                <h3>Mwenyekiti</h3>
+                <p>Jina la Mwenyekiti</p>
+            </div>
+
+            <div class="leader-card">
+                <img src="assets/image/kaimu_mwenyekiti.jpg" alt="Kaimu Mwenyekiti">
+                <h3>Kaimu Mwenyekiti</h3>
+                <p>Jina la Kaimu Mwenyekiti</p>
+                
+            </div>
+
+            <div class="leader-card">
+                <img src="assets/image/katibu.jpg" alt="Katibu">
+                <h3>Katibu</h3>
+                <p>Jina la Katibu</p>
+               
+            </div>
+
+            <div class="leader-card">
+                <img src="assets/image/mhasibu.jpg" alt="Mhasibu">
+                <h3>Mhasibu</h3>
+                <p>Jina la Mhasibu</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>secretariats wa Kamati</h2>
+        <div class="leader-grid">
+            <div class="leader-card">
+                <img src="assets/image/secretariat1.jpg" alt="Mjumbe 1">
+                <h3>secretariat 1</h3>
+                <p>Jina la Mjumbe 1</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat2.jpg" alt="Mjumbe 2">
+                <h3>secretariat 2</h3>
+                <p>Jina la Mjumbe 2</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat3.jpg" alt="Mjumbe 3">
+                <h3>secretariat 3</h3>
+                <p>Jina la Mjumbe 3</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat4.jpg" alt="Mjumbe 4">
+                <h3>secretariat 4</h3>
+                <p>Jina la Mjumbe 4</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat5.jpg" alt="Mjumbe 5">
+                <h3>secretariat 5</h3>
+                <p>Jina la Mjumbe 5</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat6.jpg" alt="Mjumbe 6">
+                <h3>secretariat 6</h3>
+                <p>Jina la Mjumbe 6</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat7.jpg" alt="Mjumbe 7">
+                <h3>secretariat 7</h3>
+                <p>Jina la Mjumbe 7</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat8.jpg" alt="Mjumbe 8">
+                <h3>secretariat 8</h3>
+                <p>Jina la Mjumbe 8</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat9.jpg" alt="Mjumbe 9">
+                <h3>secretariat 9</h3>
+                <p>Jina la Mjumbe 9</p>
+            </div>
+            <div class="leader-card">
+                <img src="assets/image/secretariat10.jpg" alt="Mjumbe 10">
+                <h3>secretariat 10</h3>
+                <p>Jina la Mjumbe 10</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Chama cha Madereva wa Serikali wa Tanzania.</p>
+</footer>
+
+
+</body>
+</html>

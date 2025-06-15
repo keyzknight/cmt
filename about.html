@@ -1,0 +1,127 @@
+h2, h3 {
+    color: #0066cc; /* or any blue shade you prefer */
+}h2, h3 {
+    color: #0066cc; /* or any blue shade you prefer */
+}<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuhusu Chama</title>
+    <!--may be css is the problem-->
+    <link rel="stylesheet" href="assets/css/style.css">
+     <script src="assets/js/script.js"></script><!--added js file-->
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #002147;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+
+      text-decoration: none;
+    }
+     nav a.active{
+     background-color: #003366;/*dark blue background for highlight*/
+     color: white;/*ensure text remains readable*/
+     padding: 5px 10px;/*add padding for better visibility*/
+     border-radius: 4px;/*optional: rounded corners*/
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .news {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(13, 24, 184, 0.1);
+      margin-bottom: 2rem;
+    }
+
+    .news h2 {
+      color: #002147;
+      padding-bottom: 5px;
+      margin-top: 1rem;
+    }
+
+    .date {
+      color: gray;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    .news p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+    <header>
+       <h1>Kuhusu Chama</h1>
+        <nav>
+           <a href="index.html">Nyumbani</a>
+            <a href="join.html"> kujiunga</a>
+             <a href="news.html">Habari</a>
+             <a href="benefits.html">Faida</a>
+             <a href="events.html">Matukio</a>
+             <a href="leadership.html">Uongozi</a>
+             <a href="contact.html">Mawasiliano</a>
+             <a href="about.html" class="active">Kuhusu</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Historia ya Chama</h2>
+            <p>Chama cha Madereva wa Serikali wa Tanzania kilianzishwa kwa lengo la kuimarisha mshikamano na ustawi wa madereva wanaohudumu katika taasisi mbalimbali za serikali. Kwa miaka mingi, chama hiki kimekuwa mstari wa mbele katika kutetea haki, kuboresha mazingira ya kazi, na kutoa elimu kwa wanachama wake.</p>
+        </section>
+
+        <section>
+            <h2>Dira na Dhamira</h2>
+            <h3>Dira (Vision)</h3>
+            <p>Kuwa chama cha mfano katika kutetea haki na maendeleo ya madereva wa serikali nchini Tanzania.</p>
+
+            <h3>Dhamira (Mission)</h3>
+            <p>Kuwakilisha na kutetea maslahi ya wanachama wetu kwa uwazi, uwajibikaji, na mshikamano wa kitaaluma.</p>
+        </section>
+
+        <section>
+            <h2>Maadili ya Msingi</h2>
+            <ul>
+                <li>Uadilifu</li>
+                <li>Uwajibikaji</li>
+                <li>Mshikamano</li>
+                <li>Kuwakilisha kwa haki</li>
+                <li>Kuwaheshimu wanachama wote</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Malengo ya Chama</h2>
+            <ul>
+                <li>Kuwalinda na kuwatetea wanachama dhidi ya changamoto za kikazi.</li>
+                <li>Kutoa elimu na mafunzo ya kitaaluma kwa madereva wa serikali.</li>
+                <li>Kushirikiana na taasisi za serikali katika kuboresha sera zinazohusu madereva.</li>
+                <li>Kujenga mazingira bora ya kazi na ustawi wa kijamii kwa wanachama.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Chama cha Madereva wa Serikali wa Tanzania.</p>
+    </footer>
+</body>
+</html>

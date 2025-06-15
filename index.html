@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chama cha Madereva wa Serikali wa Tanzania</title>
+    <link rel="stylesheet" href="assets/css/style.css"><!--MODIFY:Now relies on external css-->
+    <!--MODIFY: Remove the entire<style>block below and move styles to assets/css/style.css-->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo-fullscreen {
+            background-image: url('assets/image/logo.jpeg'); /* Update path if needed */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            position: relative;
+            background-color: #f0f0f0;
+        }
+
+        .logo-fullscreen .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            color: #333;
+            background-color: rgba(255, 255, 255, 0.8);
+            max-width: 1000px;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+        }
+
+        header img {
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: #0066cc; /* Blue headings */
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body class="logo-fullscreen"><!--MODIFY:Removed'index-page'since behaviour applies to all pages-->
+    <div class="logo-fullscreen">
+        <header>
+            <img src="assets/image/logo.jpeg" alt="Logo ya Chama">
+            <h1>Chama cha Madereva wa Serikali wa Tanzania</h1>
+            <nav>
+                <a href="index.html" class="active">Nyumbani</a>
+                <a href="join.html">Kujiunga</a>
+                <a href="news.html">Habari</a>
+                <a href="benefits.html">Faida</a>
+                <a href="events.html">Matukio</a>
+                <a href="leadership.html">Viongozi</a>
+                <a href="contact.html">Mawasiliano</a>
+                <a href="about.html">Kuhusu</a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section>
+                <h2>Karibu!</h2>
+                <p>Karibu kwenye tovuti rasmi ya Chama cha Madereva wa Serikali wa Tanzania. Tunawakilisha na kutea msaada wa uanachama.</p>
+            </section>
+
+            <section>
+                <h2>Malengo ya Chama</h2>
+                <ul>
+                    <li>Kutea haki na maslahi ya wanchama.</li>
+                    <li>Kuakikisha ustawi wa madereva wa serikali.</li>
+                    <li>Kutoa elimu, mafunzo, na taarifa muhimu kwa wanchama.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer id="pageFooter"><!--MODIFY:Added'id="pageFooter"for Javascript targeting-->
+        <p>&copy; 2025 Chama cha Madereva wa Serikali wa Tanzania. Haki zote zimehifadhiwa.</p>
+    </footer>
+    <!--MODIFY:Move all scripts here-->
+    <script src="assets/js/script.js"></script><!--MODIFY:Relies on external js-->
+</body>
+</html>
